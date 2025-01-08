@@ -14,6 +14,15 @@ html {
 3. Màu sắc
 4. Kiểu dáng (Kiểu chữ , hình tròn , vuông , ...)
 */
+
+.clear {
+    clear: both;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
 #main {
     
    
@@ -125,6 +134,100 @@ html {
 
 }
 
+#content .content-section {
+    width: 800px;
+    margin: 64px;
+}
+
+#content .section-heading {
+    font-size: 30px;
+    font-weight: 500;
+    /* Căn giữa chữ THE BAND */
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+#content .section-sub-heading {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+    /* Chữ nghiêng */
+    font-style: italic;
+    /* Độ trong suốt 60% */
+    opacity: 0.6;
+}
+
+#content .about-text {
+    font-size: 15px;
+    margin-top: 25px;
+    /* Căn lề 2 bên */
+    text-align: justify;
+    /* Khoảng cách giữa các dòng */
+    line-height: 1.4;
+}
+
+#content .menbers-item {
+    /* Xét ngang cho 3 ảnh */
+    float: left;
+    width: calc(100% / 3);
+    text-align: center;
+}
+
+#content .menbers-name {
+    font-size: 15px;
+    
+}
+
+#content .menbers-img {
+    margin-top: 15px;
+    width: 154px;
+    /* Bo tròn viền ảnh */
+    border-radius: 4px;
+}
+
+#content .menbers-list {
+    margin-top: 48px;
+}
+
+
+/* Tour section */
+#content .tour-section {
+    background-color: #000;
+    height: 850px;
+}
+
+.ticket-list {
+    background-color: #fff;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.ticket-list li {
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+.ticket-list .Sold-out {    
+    background-color: #f44336;
+    color: #fff;
+    padding: 3px 4px;
+    margin-left: 16px;
+}
+
+.ticket-list .quantity {
+    background-color: #000;
+    color: #fff;
+    float: right;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 24px;
+    padding: -3px;
+}
+
+/* Footer section */
 #footer {
 
 }
